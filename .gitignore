@@ -1,0 +1,42 @@
+# --- OS & editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+# --- VS Code settings ---
+.vscode/
+*.code-workspace
+
+# --- Build & binaries ---
+*.o
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.a
+
+# --- Compiled files ---
+build/
+bin/
+Debug/
+Release/
+
+# --- Temp files ---
+*.tmp
+*.log
+*.lock
+
+# --- System files ---
+ehthumbs.db
+desktop.ini
+
+# --- Dependency / package cache (if used) ---
+node_modules/
+
+# Ignore all text and PDF test files
+*.txt
+*.pdf
+!job_log.txt

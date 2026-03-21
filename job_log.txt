@@ -1,0 +1,146 @@
+[2025-11-12 18:27:11] --- Print Server Started ---
+[2025-11-12 18:27:36] Job 1 submitted: short.pdf (Priority 2, Pages 1)
+[2025-11-12 18:27:36] Job 2 submitted: short_job.txt (Priority 4, Pages 2)
+[2025-11-12 18:27:38] Job 1 (PrintServerJobs/short.pdf) started printing.
+[2025-11-12 18:27:46] Job 1 finished printing.
+[2025-11-12 18:27:46] Job 2 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-13 10:11:23] --- Print Server Started ---
+[2025-11-13 10:12:09] Job 1 submitted: hello.txt (Priority 51, Pages 1)
+[2025-11-13 10:12:09] Job 2 submitted: short.pdf (Priority 2, Pages 2)
+[2025-11-13 10:12:09] Job 1 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 10:12:11] Job 1 preempted by Job 2.
+[2025-11-13 10:12:15] Job 2 (PrintServerJobs/short.pdf) started printing.
+[2025-11-13 10:12:45] Job 2 finished printing.
+[2025-11-13 10:12:45] Job 1 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 21:38:36] --- Print Server Started ---
+[2025-11-13 21:39:20] Job 1 submitted: DAA_File.pdf (Priority 117, Pages 1)
+[2025-11-13 21:39:20] Job 2 submitted: hello.txt (Priority 51, Pages 2)
+[2025-11-13 21:39:36] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-13 21:39:38] Job 1 preempted by Job 2.
+[2025-11-13 21:39:38] Job 2 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 21:40:09] Error: Failed to reassign priority for Job 2 (new priority 0). Job not found.
+[2025-11-13 21:40:32] --- Print Server Started ---
+[2025-11-13 21:42:08] Job 1 submitted: short_job.txt (Priority 12, Pages 1)
+[2025-11-13 21:42:08] Job 2 submitted: hello.txt (Priority 51, Pages 2)
+[2025-11-13 21:42:08] Job 3 submitted: DAA_File.pdf (Priority 117, Pages 3)
+[2025-11-13 21:42:09] Job 1 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-13 21:42:26] Job 3 priority reassigned to 0.
+[2025-11-13 21:42:45] Job 1 finished printing.
+[2025-11-13 21:42:59] Job 3 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-13 21:43:01] Job 3 preempted by Job 2.
+[2025-11-13 21:43:01] Job 2 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 22:09:59] --- Print Server Started ---
+[2025-11-13 22:10:36] Job 1 submitted: hello.txt (Priority 51, Pages 1)
+[2025-11-13 22:10:36] Job 2 submitted: DAA_File.pdf (Priority 117, Pages 2)
+[2025-11-13 22:10:36] Job 1 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 22:10:50] Job 2 (PrintServerJobs/DAA_File.pdf) cancelled from queue.
+[2025-11-13 22:11:05] Attempting to cancel actively printing Job 1 (PrintServerJobs/hello.txt).
+[2025-11-13 22:11:05] Job 1 (PrintServerJobs/hello.txt) was cancelled while printing.
+[2025-11-13 22:11:33] Job 3 submitted: hello.txt (Priority 51, Pages 1)
+[2025-11-13 22:11:33] Job 4 submitted: short.pdf (Priority 2, Pages 2)
+[2025-11-13 22:11:33] Job 3 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 22:11:35] Job 3 preempted by Job 4.
+[2025-11-13 22:11:37] Job 4 (PrintServerJobs/short.pdf) started printing.
+[2025-11-13 22:11:44] Job 3 (PrintServerJobs/hello.txt) cancelled from queue.
+[2025-11-13 22:11:48] Job 4 finished printing.
+[2025-11-13 22:13:05] Job 5 submitted: short_job.txt (Priority 4, Pages 1)
+[2025-11-13 22:13:05] Job 6 submitted: DAA_File.pdf (Priority 117, Pages 2)
+[2025-11-13 22:13:05] Job 7 submitted: hello.txt (Priority 51, Pages 3)
+[2025-11-13 22:13:05] Job 5 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-13 22:13:19] Job 5 finished printing.
+[2025-11-13 22:13:19] Job 7 priority reassigned to 0.
+[2025-11-13 22:13:20] Job 7 (PrintServerJobs/hello.txt) started printing.
+[2025-11-13 22:14:11] Job 6 priority reassigned to 0.
+[2025-11-13 22:14:27] Job 6 (PrintServerJobs/DAA_File.pdf) cancelled from queue.
+[2025-11-13 22:14:40] Attempting to cancel actively printing Job 7 (PrintServerJobs/hello.txt).
+[2025-11-13 22:14:41] Job 7 (PrintServerJobs/hello.txt) was cancelled while printing.
+[2025-11-14 09:23:49] --- Print Server Started ---
+[2025-11-14 09:30:00] --- Print Server Started ---
+[2025-11-14 09:30:26] Job 1 submitted: DAA_File.pdf (Priority 117, Pages 1)
+[2025-11-14 09:30:26] Job 2 submitted: hello.txt (Priority 51, Pages 3)
+[2025-11-14 09:30:42] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 09:31:17] Job 3 submitted: short.pdf (Priority 2, Pages 4)
+[2025-11-14 09:33:59] --- Print Server Started ---
+[2025-11-14 09:34:30] Job 1 submitted: DAA_File.pdf (Priority 117, Pages 1)
+[2025-11-14 09:34:30] Job 2 submitted: hello.txt (Priority 51, Pages 3)
+[2025-11-14 09:34:46] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 09:34:48] Job 1 preempted by Job 2.
+[2025-11-14 09:34:48] Job 2 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 09:35:19] Job 3 submitted: short.pdf (Priority 2, Pages 4)
+[2025-11-14 09:55:53] --- Print Server Started ---
+[2025-11-14 09:56:16] Job 1 submitted: DAA_File.pdf (Priority 117, Pages 1)
+[2025-11-14 09:56:16] Job 2 submitted: hello.txt (Priority 51, Pages 2)
+[2025-11-14 09:56:32] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 09:56:34] Job 1 preempted by Job 2.
+[2025-11-14 09:56:34] Job 2 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 09:56:43] Job 3 submitted: short.pdf (Priority 2, Pages 3)
+[2025-11-14 09:56:47] Job 2 preempted by Job 3.
+[2025-11-14 09:56:50] Job 3 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 09:57:01] Job 3 finished printing.
+[2025-11-14 09:57:02] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 09:57:04] Job 1 preempted by Job 2.
+[2025-11-14 09:57:04] Job 2 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 09:57:32] Job 4 submitted: short_job.txt (Priority 4, Pages 4)
+[2025-11-14 09:57:33] Job 2 preempted by Job 4.
+[2025-11-14 09:57:33] Job 4 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-14 09:57:45] Job 4 finished printing.
+[2025-11-14 09:57:46] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 09:57:48] Job 1 preempted by Job 2.
+[2025-11-14 09:57:48] Job 2 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 09:58:41] --- Print Server Started ---
+[2025-11-14 09:59:04] Job 1 submitted: DAA_File.pdf (Priority 117, Pages 1)
+[2025-11-14 09:59:04] Job 2 submitted: hello.txt (Priority 51, Pages 2)
+[2025-11-14 09:59:20] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 09:59:40] Job 3 submitted: short_job.txt (Priority 4, Pages 4)
+[2025-11-14 09:59:46] Job 1 preempted by Job 3.
+[2025-11-14 09:59:46] Job 3 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-14 09:59:58] Job 3 finished printing.
+[2025-11-14 09:59:59] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 10:00:15] Job 4 submitted: short.pdf (Priority 2, Pages 3)
+[2025-11-14 10:00:15] Job 1 preempted by Job 4.
+[2025-11-14 10:00:18] Job 4 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 10:00:33] --- Print Server Started ---
+[2025-11-14 10:01:07] --- Print Server Started ---
+[2025-11-14 10:01:29] Job 1 submitted: short_job.txt (Priority 4, Pages 1)
+[2025-11-14 10:01:29] Job 2 submitted: short.pdf (Priority 2, Pages 2)
+[2025-11-14 10:01:30] Job 1 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-14 10:01:43] Job 1 finished printing.
+[2025-11-14 10:01:46] Job 2 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 10:01:56] Job 2 finished printing.
+[2025-11-14 21:55:01] --- Print Server Started ---
+[2025-11-14 21:55:53] Job 1 submitted: hello.txt (Priority 51, Pages 1)
+[2025-11-14 21:55:53] Job 2 submitted: short.pdf (Priority 2, Pages 2)
+[2025-11-14 21:55:53] Job 3 submitted: short.pdf (Priority 2, Pages 3)
+[2025-11-14 21:55:53] Job 4 submitted: short.pdf (Priority 2, Pages 4)
+[2025-11-14 21:55:53] Job 5 submitted: short.pdf (Priority 2, Pages 5)
+[2025-11-14 21:55:54] Job 1 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 21:55:56] Job 1 preempted by Job 2.
+[2025-11-14 21:55:58] Job 2 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 21:56:08] Job 2 finished printing.
+[2025-11-14 21:56:09] Job 1 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 21:56:11] Job 1 preempted by Job 3.
+[2025-11-14 21:56:13] Job 3 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 21:56:21] Job 3 finished printing.
+[2025-11-14 21:56:22] Job 1 (PrintServerJobs/hello.txt) started printing.
+[2025-11-14 21:56:58] Job 4 priority reassigned to 2.
+[2025-11-14 21:57:18] Attempting to cancel actively printing Job 1 (PrintServerJobs/hello.txt).
+[2025-11-14 21:57:19] Job 1 (PrintServerJobs/hello.txt) was cancelled while printing.
+[2025-11-14 21:57:22] Job 4 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 21:57:27] Job 5 (PrintServerJobs/short.pdf) cancelled from queue.
+[2025-11-14 21:57:30] Job 4 finished printing.
+[2025-11-14 21:58:08] --- Print Server Started ---
+[2025-11-14 21:59:21] Job 1 submitted: DAA_File.pdf (Priority 117, Pages 0)
+[2025-11-14 21:59:21] Job 2 submitted: hello.txt (Priority 51, Pages 1)
+[2025-11-14 21:59:21] Job 3 submitted: short_job.txt (Priority 4, Pages 2)
+[2025-11-14 21:59:22] Job 4 submitted: short.pdf (Priority 2, Pages 3)
+[2025-11-14 21:59:22] Error: Missing priority for file 'submit'.
+[2025-11-14 21:59:35] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 21:59:37] Job 1 preempted by Job 3.
+[2025-11-14 21:59:37] Job 3 (PrintServerJobs/short_job.txt) started printing.
+[2025-11-14 21:59:56] Job 3 finished printing.
+[2025-11-14 21:59:57] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 21:59:59] Job 1 preempted by Job 4.
+[2025-11-14 22:00:01] Job 4 (PrintServerJobs/short.pdf) started printing.
+[2025-11-14 22:00:10] Job 4 finished printing.
+[2025-11-14 22:00:11] Job 1 (PrintServerJobs/DAA_File.pdf) started printing.
+[2025-11-14 22:00:34] Job 5 submitted: short.pdf (Priority 2, Pages 5)
